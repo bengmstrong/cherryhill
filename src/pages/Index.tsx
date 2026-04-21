@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import SiteLayout from "@/components/SiteLayout";
 import Hero from "@/components/Hero";
-import staircase from "@/assets/staircase.jpg";
 import gardens from "@/assets/gardens.jpg";
 
 const Index = () => {
