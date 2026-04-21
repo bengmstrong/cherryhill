@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import SiteLayout from "@/components/SiteLayout";
 import Hero from "@/components/Hero";
-import Gallery from "@/components/Gallery";
 import staircase from "@/assets/staircase.jpg";
 import gardens from "@/assets/gardens.jpg";
 
@@ -26,8 +25,6 @@ const Index = () => {
           </p>
         </div>
       </section>
-
-      <Gallery />
 
       {/* History teaser */}
       <section className="py-28 md:py-36 bg-background">
