@@ -27,40 +27,27 @@ const Index = () => {
 
       {/* History teaser */}
       <section className="py-28 md:py-36 bg-background">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10">
-          <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-            <div className="relative order-2 lg:order-1">
-              <div className="absolute -inset-4 border border-gold/40 -z-10" aria-hidden />
-              <img
-                src={staircase}
-                alt="The swirling teak staircase inside Cherry Hill"
-                loading="lazy"
-                className="w-full aspect-[4/5] object-cover shadow-portrait"
-              />
-            </div>
-            <div className="order-1 lg:order-2">
-              <p className="text-eyebrow text-gold mb-5">A Glimpse of the History</p>
-              <h2 className="text-display text-forest text-5xl md:text-6xl mb-8">
-                One hundred years <span className="italic">on the hill.</span>
-              </h2>
-              <p className="prose-estate mb-6">
-                On a five-acre rise in South Roanoke, Cherry Hill has stood for a century.
-                In 1965, the Funkhouser family donated the estate to the Roanoke Fine Arts
-                Center, and for nearly two decades it served as the cultural heart of the
-                city.
-              </p>
-              <p className="prose-estate mb-10">
-                Now, a hundred years after it was built, Cherry Hill begins its next chapter.
-              </p>
-              <Link
-                to="/history"
-                className="inline-flex items-center gap-3 text-eyebrow text-forest hover:text-gold transition-colors group"
-              >
-                <span className="link-underline">Read the Full History</span>
-                <span className="transition-transform group-hover:translate-x-1">→</span>
-              </Link>
-            </div>
-          </div>
+        <div className="mx-auto max-w-[720px] px-6 text-center">
+          <p className="text-eyebrow text-gold mb-5">A Glimpse of the History</p>
+          <h2 className="text-display text-forest text-5xl md:text-6xl mb-8">
+            One hundred years <span className="italic">on the hill.</span>
+          </h2>
+          <p className="prose-estate mb-6">
+            On a five-acre rise in South Roanoke, Cherry Hill has stood for a century.
+            In 1965, the Funkhouser family donated the estate to the Roanoke Fine Arts
+            Center, and for nearly two decades it served as the cultural heart of the
+            city.
+          </p>
+          <p className="prose-estate mb-10">
+            Now, a hundred years after it was built, Cherry Hill begins its next chapter.
+          </p>
+          <Link
+            to="/history"
+            className="inline-flex items-center gap-3 text-eyebrow text-forest hover:text-gold transition-colors group"
+          >
+            <span className="link-underline">Read the Full History</span>
+            <span className="transition-transform group-hover:translate-x-1">→</span>
+          </Link>
         </div>
       </section>
 
