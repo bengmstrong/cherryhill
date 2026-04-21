@@ -86,7 +86,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Stay With Us */}
+      {/* Thinker in Residence */}
       <section className="relative py-32 md:py-44 overflow-hidden">
         <img
           src={gardens}
@@ -97,21 +97,19 @@ const Index = () => {
         />
         <div className="absolute inset-0 bg-forest-deep/80" aria-hidden />
         <div className="relative z-10 mx-auto max-w-2xl px-6 text-center">
-          <p className="text-eyebrow text-gold mb-6">Stay With Us</p>
+          <p className="text-eyebrow text-gold mb-6">A New Program · Coming Soon</p>
           <h2 className="text-display text-ivory text-5xl md:text-6xl mb-8">
-            <span className="italic">Be a guest</span> of the estate.
+            Become a <span className="italic">Thinker in Residence.</span>
           </h2>
           <p className="text-ivory/85 font-body text-lg leading-relaxed mb-12 max-w-xl mx-auto">
-            A handful of rooms within Cherry Hill are opening to overnight guests. Wake to
-            sunlight on teak floors, take coffee in the garden, and pass an evening in rooms
-            that have hosted a century of conversation.
+            Cherry Hill is preparing to welcome writers, artists, scholars, and quiet
+            obsessives for month-long residencies on the estate — time and space, on the
+            hill, to bring a creative or intellectual work into the world. Applications
+            open soon.
           </p>
-          <Link
-            to="/rent-a-room"
-            className="inline-block px-10 py-4 border border-gold/70 text-gold-soft text-eyebrow hover:bg-gold hover:text-charcoal transition-colors duration-500"
-          >
-            Inquire About Rooms
-          </Link>
+          <span className="inline-block px-10 py-4 border border-gold/70 text-gold-soft text-eyebrow">
+            Applications Opening Soon
+          </span>
         </div>
       </section>
     </SiteLayout>
