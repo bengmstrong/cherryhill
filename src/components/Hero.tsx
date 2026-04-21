@@ -21,7 +21,7 @@ const Hero = () => {
       />
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
-        <p className="text-eyebrow text-gold-soft mb-8 animate-fade-in" style={{ animationDelay: "300ms" }}>
+        <p className="text-eyebrow text-gold-soft mb-8 animate-fade-in text-slate-50" style={{ animationDelay: "300ms" }}>
           Est. 1925 · Roanoke, Virginia
         </p>
         <h1
