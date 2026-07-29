@@ -33,7 +33,7 @@ const Index = () => {
             One hundred years <span className="italic">on the hill.</span>
           </h2>
           <p className="prose-estate mb-6">
-            On a five-acre rise in South Roanoke, Cherry Hill has stood for a century.
+            On a central rise in South Roanoke, Cherry Hill has stood for a century.
             In 1965, the Funkhouser family donated the estate to the Roanoke Fine Arts
             Center, and for nearly two decades it served as the cultural heart of the
             city.
