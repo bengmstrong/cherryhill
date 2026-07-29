@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import SiteLayout from "@/components/SiteLayout";
 import Hero from "@/components/Hero";
-import gardens from "@/assets/gardens.jpg";
+import thinkerResidenceGarden from "@/assets/thinker-residence-garden.webp.asset.json";
 
 const Index = () => {
   return (
