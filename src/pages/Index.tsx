@@ -89,7 +89,7 @@ const Index = () => {
       {/* Thinker in Residence */}
       <section className="relative py-32 md:py-44 overflow-hidden">
         <img
-          src={gardens}
+          src={thinkerResidenceGarden.url}
           alt=""
           aria-hidden
           loading="lazy"
