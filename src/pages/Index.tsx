@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import SiteLayout from "@/components/SiteLayout";
 import Hero from "@/components/Hero";
 import EstateCarousel from "@/components/EstateCarousel";
-import thinkerResidenceGarden from "@/assets/thinker-residence-garden.webp.asset.json";
+import gatheringBackground from "@/assets/thinker-residence-garden.webp.asset.json";
 
 const Index = () => {
   return (
