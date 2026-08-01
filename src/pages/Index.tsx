@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import SiteLayout from "@/components/SiteLayout";
 import Hero from "@/components/Hero";
 import EstateCarousel from "@/components/EstateCarousel";
-import thinkerResidenceGarden from "@/assets/thinker-residence-garden.webp.asset.json";
+import gatheringBackground from "@/assets/thinker-residence-garden.webp.asset.json";
 
 const Index = () => {
   return (
@@ -90,10 +90,10 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Thinker in Residence */}
+      {/* Host Your Next Gathering */}
       <section className="relative py-32 md:py-44 overflow-hidden">
         <img
-          src={thinkerResidenceGarden.url}
+          src={gatheringBackground.url}
           alt=""
           aria-hidden
           loading="lazy"
@@ -101,19 +101,23 @@ const Index = () => {
         />
         <div className="absolute inset-0 bg-forest-deep/80" aria-hidden />
         <div className="relative z-10 mx-auto max-w-2xl px-6 text-center">
-          <p className="text-eyebrow text-gold mb-6">A New Program · Coming Soon</p>
+          <p className="text-eyebrow text-gold mb-6">Lectures, Salons, Receptions</p>
           <h2 className="text-display text-ivory text-5xl md:text-6xl mb-8">
-            Become a <span className="italic">Thinker in Residence.</span>
+            Host Your Next Gathering <span className="italic">at Cherry Hill.</span>
           </h2>
           <p className="text-ivory/85 font-body text-lg leading-relaxed mb-12 max-w-xl mx-auto">
-            Cherry Hill is preparing to welcome writers, artists, scholars, and quiet
-            obsessives for month-long residencies on the estate — time and space, on the
-            hill, to bring a creative or intellectual work into the world. Applications
-            open soon.
+            Cherry Hill welcomes nonprofits and foundations working in environment,
+            local economic development, climate, arts and culture to gather on the hill.
+            From intimate lectures and salons to receptions and private events, the
+            estate offers a singular setting for the ideas and communities shaping our
+            region.
           </p>
-          <span className="inline-block px-10 py-4 border border-gold/70 text-gold-soft text-eyebrow">
-            Applications Opening Soon
-          </span>
+          <a
+            href="mailto:ben.gm.strong@gmail.com"
+            className="inline-block px-10 py-4 border border-gold/70 text-gold-soft text-eyebrow hover:bg-gold/10 transition-colors"
+          >
+            Register Your Interest
+          </a>
         </div>
       </section>
     </SiteLayout>
