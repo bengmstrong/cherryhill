@@ -12,7 +12,7 @@ const SiteFooter = () => {
               <span className="font-medium">Hill</span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-ivory/70 max-w-xs">
-              A historic Georgian estate on a five-acre rise in South Roanoke, Virginia.
+              A historic Georgian estate in South Roanoke, Virginia.
             </p>
           </div>
 
@@ -26,14 +26,13 @@ const SiteFooter = () => {
           </div>
 
           <div>
-            <h3 className="text-eyebrow text-gold mb-4">Contact</h3>
+            <h3 className="text-eyebrow text-gold mb-4"></h3>
             <ul className="text-sm leading-relaxed text-ivory/80 space-y-1">
               <li>
                 <a href="mailto:hello@cherryhillroanoke.com" className="link-underline">
-                  hello@cherryhillroanoke.com
                 </a>
               </li>
-              <li>(540) 000-0000</li>
+              <li></li>
             </ul>
             <div className="mt-5 flex items-center gap-4">
               <a href="#" aria-label="Instagram" className="text-ivory/70 hover:text-gold transition-colors">

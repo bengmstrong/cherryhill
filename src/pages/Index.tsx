@@ -101,16 +101,12 @@ const Index = () => {
         />
         <div className="absolute inset-0 bg-forest-deep/80" aria-hidden />
         <div className="relative z-10 mx-auto max-w-2xl px-6 text-center">
-          <p className="text-eyebrow text-gold mb-6">Lectures, Salons, Receptions</p>
+          <p className="text-eyebrow text-gold mb-6">LECTURES, DINNERS, MEETINGS, RECEPTIONS AND MORE</p>
           <h2 className="text-display text-ivory text-5xl md:text-6xl mb-8">
             Host Your Next Gathering <span className="italic">at Cherry Hill.</span>
           </h2>
           <p className="text-ivory/85 font-body text-lg leading-relaxed mb-12 max-w-xl mx-auto">
-            Cherry Hill welcomes nonprofits and foundations working in environment,
-            local economic development, climate, arts and culture to gather on the hill.
-            From intimate lectures and salons to receptions and private events, the
-            estate offers a singular setting for the ideas and communities shaping our
-            region.
+            Cherry Hill welcomes nonprofits and foundations working in environment, local economic development, climate, arts and culture to gather on the hill. From intimate lectures and salon-style dinners to receptions and private events, the estate offers a singular setting for the ideas and communities shaping our region and beyond.
           </p>
           <a
             href="mailto:ben.gm.strong@gmail.com"
