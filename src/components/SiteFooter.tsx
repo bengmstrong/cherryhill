@@ -1,4 +1,3 @@
-import { Instagram, Facebook } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const SiteFooter = () => {
@@ -14,34 +13,6 @@ const SiteFooter = () => {
             <p className="mt-4 text-sm leading-relaxed text-ivory/70 max-w-xs">
               A historic Georgian estate in South Roanoke, Virginia.
             </p>
-          </div>
-
-          <div>
-            <h3 className="text-eyebrow text-gold mb-4">Visit</h3>
-            <address className="not-italic text-sm leading-relaxed text-ivory/80">
-              Cherry Hill Estate
-              <br />
-              Roanoke, Virginia
-            </address>
-          </div>
-
-          <div>
-            <h3 className="text-eyebrow text-gold mb-4"></h3>
-            <ul className="text-sm leading-relaxed text-ivory/80 space-y-1">
-              <li>
-                <a href="mailto:hello@cherryhillroanoke.com" className="link-underline">
-                </a>
-              </li>
-              <li></li>
-            </ul>
-            <div className="mt-5 flex items-center gap-4">
-              <a href="#" aria-label="Instagram" className="text-ivory/70 hover:text-gold transition-colors">
-                <Instagram size={18} />
-              </a>
-              <a href="#" aria-label="Facebook" className="text-ivory/70 hover:text-gold transition-colors">
-                <Facebook size={18} />
-              </a>
-            </div>
           </div>
         </div>
 
