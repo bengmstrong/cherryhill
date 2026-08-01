@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SiteLayout from "@/components/SiteLayout";
 import Hero from "@/components/Hero";
+import EstateCarousel from "@/components/EstateCarousel";
 import thinkerResidenceGarden from "@/assets/thinker-residence-garden.webp.asset.json";
 
 const Index = () => {
@@ -24,6 +25,9 @@ const Index = () => {
           </p>
         </div>
       </section>
+
+      <EstateCarousel />
+
 
       {/* History teaser */}
       <section className="py-28 md:py-36 bg-background">
