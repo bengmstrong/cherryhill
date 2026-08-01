@@ -26,6 +26,9 @@ const Index = () => {
         </div>
       </section>
 
+      <EstateCarousel />
+
+
       {/* History teaser */}
       <section className="py-28 md:py-36 bg-background">
         <div className="mx-auto max-w-[720px] px-6 text-center">
