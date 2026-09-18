@@ -52,7 +52,7 @@ const SiteHeader = ({ transparentOverHero = false }: SiteHeaderProps) => {
             )}
             aria-label="Cherry Hill — Home"
           >
-            <span className="italic font-light">Cherry</span>{" "}
+            <span className="font-light">Cherry</span>{" "}
             <span className="font-medium">Hill</span>
           </Link>
 

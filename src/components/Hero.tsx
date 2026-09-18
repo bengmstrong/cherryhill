@@ -28,7 +28,7 @@ const Hero = () => {
           className="text-display text-ivory text-[clamp(3.5rem,11vw,9rem)] leading-[0.95] animate-fade-up"
           style={{ animationDelay: "150ms" }}
         >
-          <span className="italic font-light">Cherry</span>
+          <span className="font-light">Cherry</span>
           <br className="md:hidden" />
           <span className="md:ml-6 font-normal">Hill</span>
         </h1>

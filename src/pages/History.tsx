@@ -9,7 +9,7 @@ const History = () => {
         <div className="mx-auto max-w-5xl px-6 text-center">
           <p className="text-eyebrow text-gold mb-6">The History</p>
           <h1 className="text-display text-forest text-6xl md:text-7xl lg:text-8xl">
-            <span className="italic">A house</span> built to last centuries.
+            <span className="">A house</span> built to last centuries.
           </h1>
           <div className="mt-8 flex justify-center">
             <span className="gold-divider" />
@@ -33,7 +33,7 @@ const History = () => {
         <div className="mx-auto max-w-[680px] px-6">
           <section className="mb-16">
             <h2 className="text-display text-forest text-4xl md:text-5xl mb-8">
-              A Georgian Estate <span className="italic">in South Roanoke</span>
+              A Georgian Estate <span className="">in South Roanoke</span>
             </h2>
             <p className="prose-estate mb-6 first-letter:font-serif first-letter:text-7xl first-letter:float-left first-letter:leading-[0.85] first-letter:mr-3 first-letter:mt-1 first-letter:text-gold">
               Cherry Hill was built in the early 1920s on a five-acre rise in South
@@ -63,7 +63,7 @@ const History = () => {
 
           <section className="mb-16">
             <h2 className="text-display text-forest text-4xl md:text-5xl mb-8">
-              The <span className="italic">Fine Arts</span> Years
+              The <span className="">Fine Arts</span> Years
             </h2>
             <p className="prose-estate mb-6">
               In 1965, Anne Funkhouser Francis donated Cherry Hill to the Roanoke Fine Arts
@@ -93,7 +93,7 @@ const History = () => {
 
           <section className="mb-16">
             <h2 className="text-display text-forest text-4xl md:text-5xl mb-8">
-              A House <span className="italic">Preserved</span>
+              A House <span className="">Preserved</span>
             </h2>
             <p className="prose-estate mb-6">
               After the museum left, the mansion entered a long period of institutional
@@ -119,7 +119,7 @@ const History = () => {
 
           <section>
             <h2 className="text-display text-forest text-4xl md:text-5xl mb-8">
-              A <span className="italic">New Chapter</span>
+              A <span className="">New Chapter</span>
             </h2>
             <p className="prose-estate">
               Today, Cherry Hill at 301 23rd Street SW is a private residence once again.

@@ -34,7 +34,7 @@ const Index = () => {
         <div className="mx-auto max-w-[720px] px-6 text-center">
           <p className="text-eyebrow text-gold mb-5">A Glimpse of the History</p>
           <h2 className="text-display text-forest text-5xl md:text-6xl mb-8">
-            One hundred years <span className="italic">on the hill.</span>
+            One hundred years <span className="">on the hill.</span>
           </h2>
           <p className="prose-estate mb-6">
             On a central rise in South Roanoke, Cherry Hill has stood for a century.
@@ -60,7 +60,7 @@ const Index = () => {
         <div className="mx-auto max-w-3xl px-6 text-center">
           <p className="text-eyebrow text-gold mb-5">Upcoming Special Events</p>
           <h2 className="text-display text-forest text-5xl md:text-6xl mb-10">
-            <span className="italic">Evenings</span> at Cherry Hill
+            <span className="">Evenings</span> at Cherry Hill
           </h2>
           <div className="flex justify-center mb-10">
             <span className="gold-divider" />
@@ -70,7 +70,7 @@ const Index = () => {
             <p className="text-eyebrow text-charcoal/60 mb-4">June 26, 2026 · VIP Reception</p>
             <h3 className="font-serif text-forest text-3xl md:text-4xl leading-tight mb-5">
               The First Annual{" "}
-              <span className="italic">Southwest Virginia Hellbenders Night</span>
+              <span className="">Southwest Virginia Hellbenders Night</span>
             </h3>
             <p className="prose-estate mb-10">
               An evening on the hill in celebration of Southwest Virginia's wildlife —
@@ -103,7 +103,7 @@ const Index = () => {
         <div className="relative z-10 mx-auto max-w-2xl px-6 text-center">
           <p className="text-eyebrow text-gold mb-6">LECTURES, DINNERS, MEETINGS, RECEPTIONS AND MORE</p>
           <h2 className="text-display text-ivory text-5xl md:text-6xl mb-8">
-            Host Your Next Gathering <span className="italic">at Cherry Hill.</span>
+            Host Your Next Gathering <span className="">at Cherry Hill.</span>
           </h2>
           <p className="text-ivory/85 font-body text-lg leading-relaxed mb-12 max-w-xl mx-auto">
             Cherry Hill welcomes nonprofits and foundations working in environment, local economic development, climate, arts and culture to gather on the hill. From intimate lectures and salon-style dinners to receptions and private events, the estate offers a singular setting for the ideas and communities shaping our region and beyond.

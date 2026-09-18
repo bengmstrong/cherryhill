@@ -7,7 +7,7 @@ const SiteFooter = () => {
         <div className="grid gap-12 md:grid-cols-3">
           <div>
             <Link to="/" className="font-serif text-3xl text-ivory">
-              <span className="italic font-light">Cherry</span>{" "}
+              <span className="font-light">Cherry</span>{" "}
               <span className="font-medium">Hill</span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-ivory/70 max-w-xs">
