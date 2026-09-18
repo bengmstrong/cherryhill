@@ -17,11 +17,8 @@ const Index = () => {
           </div>
           <p className="text-eyebrow text-gold mb-8">Welcome to Cherry Hill</p>
           <p className="prose-estate">
-            Completed in 1925, Cherry Hill is a Georgian mansion designed by New York
-            architect A. J. Bodker for industrialist Edgar M. Funkhouser. Built of brick
-            and steel with teak floors and a sweeping curved staircase, the estate served
-            for nearly two decades as the home of the Roanoke Fine Arts Center — the
-            institution that would one day become the Taubman Museum of Art.
+            Cherry Hill is a home for celebrations, learning, shared curiosity, and the
+            conversations that strengthen a community.
           </p>
         </div>
       </section>
