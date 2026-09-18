@@ -38,8 +38,8 @@ const EstateCarousel = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="left-3 md:-left-12 border-gold/40 text-forest" />
-          <CarouselNext className="right-3 md:-right-12 border-gold/40 text-forest" />
+          <CarouselPrevious className="left-3 xl:-left-12 border-gold/40 text-forest" />
+          <CarouselNext className="right-3 xl:-right-12 border-gold/40 text-forest" />
         </Carousel>
       </div>
     </section>
