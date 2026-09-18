@@ -7,7 +7,7 @@ const SiteFooter = () => {
         <div className="grid gap-12 md:grid-cols-3">
           <div>
             <Link to="/" className="font-serif text-3xl text-ivory">
-              <span className="italic font-light">Cherry</span>{" "}
+              <span className="font-light">Cherry</span>{" "}
               <span className="font-medium">Hill</span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-ivory/70 max-w-xs">
@@ -20,7 +20,7 @@ const SiteFooter = () => {
           <p className="text-xs text-ivory/50 tracking-wider">
             © {new Date().getFullYear()} Cherry Hill Estate. All rights reserved.
           </p>
-          <p className="text-xs text-ivory/50 italic font-serif">Est. 1925 · Roanoke, Virginia</p>
+          <p className="text-xs text-ivory/50 font-serif">Est. 1925 · Roanoke, Virginia</p>
         </div>
       </div>
     </footer>

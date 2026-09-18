@@ -17,7 +17,7 @@ const ComingSoon = ({ eyebrow, title, italicWord, description }: ComingSoonProps
           <h1 className="text-display text-forest text-6xl md:text-7xl mb-10">
             {italicWord ? (
               <>
-                <span className="italic">{italicWord}</span> {title}
+                <span className="">{italicWord}</span> {title}
               </>
             ) : (
               title
