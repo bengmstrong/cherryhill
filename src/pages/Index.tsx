@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import SiteLayout from "@/components/SiteLayout";
 import Hero from "@/components/Hero";
 import EstateCarousel from "@/components/EstateCarousel";
-import gatheringBackground from "@/assets/thinker-residence-garden.webp.asset.json";
+import gatheringBackground from "@/assets/thinker-residence-garden.webp";
 
 const Index = () => {
   return (
@@ -93,7 +93,7 @@ const Index = () => {
       {/* Host Your Next Gathering */}
       <section className="relative py-32 md:py-44 overflow-hidden">
         <img
-          src={gatheringBackground.url}
+          src={gatheringBackground}
           alt=""
           aria-hidden
           loading="lazy"

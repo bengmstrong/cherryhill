@@ -5,18 +5,18 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import ballroom from "@/assets/ballroom.webp.asset.json";
-import library from "@/assets/library.webp.asset.json";
-import foyer from "@/assets/foyer.webp.asset.json";
-import porticoView from "@/assets/portico-view.webp.asset.json";
+import ballroom from "@/assets/ballroom.webp";
+import library from "@/assets/library.webp";
+import foyer from "@/assets/foyer.webp";
+import porticoView from "@/assets/portico-view.webp";
 import exterior from "@/assets/cherry-hill-exterior.webp";
 
 const slides = [
   { src: exterior, alt: "Cherry Hill's Georgian brick facade and columned portico" },
-  { src: foyer.url, alt: "The entry hall and curved staircase at Cherry Hill" },
-  { src: ballroom.url, alt: "The grand drawing room with crystal chandeliers and fireplace" },
-  { src: library.url, alt: "The paneled library with carved woodwork and fireplace" },
-  { src: porticoView.url, alt: "The grounds seen from between the portico columns" },
+  { src: foyer, alt: "The entry hall and curved staircase at Cherry Hill" },
+  { src: ballroom, alt: "The grand drawing room with crystal chandeliers and fireplace" },
+  { src: library, alt: "The paneled library with carved woodwork and fireplace" },
+  { src: porticoView, alt: "The grounds seen from between the portico columns" },
 ];
 
 const EstateCarousel = () => {
