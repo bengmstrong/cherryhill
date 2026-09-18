@@ -36,7 +36,7 @@ const Hero = () => {
           <span className="gold-divider" />
         </div>
         <p
-          className="mt-10 max-w-xl text-ivory/85 text-lg md:text-xl font-body italic animate-fade-up"
+          className="mt-10 max-w-xl text-ivory/85 text-lg md:text-xl font-body animate-fade-up"
           style={{ animationDelay: "550ms" }}
         >
           A historic estate in the heart of Roanoke, Virginia.

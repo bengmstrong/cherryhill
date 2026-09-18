@@ -20,7 +20,7 @@ const SiteFooter = () => {
           <p className="text-xs text-ivory/50 tracking-wider">
             © {new Date().getFullYear()} Cherry Hill Estate. All rights reserved.
           </p>
-          <p className="text-xs text-ivory/50 italic font-serif">Est. 1925 · Roanoke, Virginia</p>
+          <p className="text-xs text-ivory/50 font-serif">Est. 1925 · Roanoke, Virginia</p>
         </div>
       </div>
     </footer>

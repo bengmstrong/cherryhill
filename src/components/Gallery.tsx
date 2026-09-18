@@ -21,7 +21,7 @@ const Gallery = () => {
         <div className="text-center mb-16">
           <p className="text-eyebrow text-gold mb-4">The Estate</p>
           <h2 className="text-display text-forest text-5xl md:text-6xl">
-            <span className="italic">A century</span> in residence
+            <span>A century</span> in residence
           </h2>
           <div className="mt-6 flex justify-center">
             <span className="gold-divider" />
